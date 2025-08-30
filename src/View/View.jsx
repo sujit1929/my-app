@@ -6,7 +6,7 @@ import AllRoutes from '../config/route.config/allRoute'
 
 const Views = (props) => {
     return (
-        <Suspense className="w-full" >
+        <Suspense fallback={<div>Loading...</div>} className="w-full" >
             <AllRoutes {...props} />
         </Suspense >
     )

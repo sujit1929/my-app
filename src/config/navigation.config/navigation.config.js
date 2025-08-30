@@ -60,7 +60,7 @@ const navigationConfig = [
                 key: "concepts.categories",
                 path: `${CONCEPTS_PREFIX_PATH}/categories/category-list`,
                 title: "Category",
-                icon: "category",
+                icon: "gadgets",
                 type: "item",
                 subMenu: [],
             },
